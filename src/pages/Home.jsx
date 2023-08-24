@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import "../styles/HomeStyles.css";
-import Banner from "../assets/images/Banner.jpg";
+// point of error 👇
+import Banner from "../assets/Images/Banner.jpg"
+// import Banner from "../assets/images/Banner.jpg";
 
 const Home = () => {
   return (
