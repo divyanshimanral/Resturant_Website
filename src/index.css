@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;900&family=Tilt+Prism&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif !important;
+}
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: goldenrod;
+  /* font-family: "Tilt Prism", cursive !important; */
+}
+/* mobie-navigation */
+.mobile-navigation > li {
+  margin: 1rem ;
+  background: #999;
+  list-style: none;
+}
+.mobile-navigation > li > a {
+  color: black;
+}
