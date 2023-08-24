@@ -8,8 +8,13 @@
 a {
   text-decoration: none;
   font-size: 1.2rem;
-  color: goldenrod;
+  color: white !important;
   /* font-family: "Tilt Prism", cursive !important; */
+}
+.active{
+  color: goldenrod !important;
+  font-weight: bold !important;
+  text-decoration: underline;
 }
 /* mobie-navigation */
 .mobile-navigation > li {

@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 import FastfoodIcon from "@mui/icons-material/Fastfood";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import ListIcon from "@mui/icons-material/List";
 import { useState } from "react";
 
@@ -33,16 +33,18 @@ const Header = () => {
       <Divider />
       <ul className="mobile-navigation">
         <li>
-          <Link to="/">Home</Link>
+          <NavLink activeClassName="active" to="/">
+            Home
+          </NavLink>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <NavLink to="/about">About</NavLink>
         </li>
         <li>
-          <Link to="/contact">Contact Us</Link>
+          <NavLink to="/contact">Contact Us</NavLink>
         </li>
         <li>
-          <Link to="/menu">Menu</Link>
+          <NavLink to="/menu">Menu</NavLink>
         </li>
       </ul>
     </Box>
@@ -79,10 +81,12 @@ const Header = () => {
                 justifyContent: "space-between",
               }}
             >
-              <Link to="/">Home</Link>
-              <Link to="/about">About</Link>
-              <Link to="/contact">Contact Us</Link>
-              <Link to="/menu">Menu</Link>
+              <NavLink activeClassName="active" to="/">
+                Home
+              </NavLink>
+              <NavLink to="/about">About</NavLink>
+              <NavLink to="/contact">Contact Us</NavLink>
+              <NavLink to="/menu">Menu</NavLink>
             </Box>
           </Toolbar>
         </AppBar>
